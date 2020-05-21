@@ -1,5 +1,5 @@
 jQuery(document).ready(function($){
-	//if you change this breakpoint in the style.css file (or _layout.scss if you use SASS), don't forget to update this value as well
+	
 	var MQL = 1170;
 
 	//primary navigation slide-in effect
@@ -20,7 +20,7 @@ jQuery(document).ready(function($){
 		    		$('.box-header').removeClass('is-visible is-fixed');
 		    	}
 		    } else {
-		    	//if scrolling down...
+		    	// scrolling down
 		    	$('.box-header').removeClass('is-visible');
 		    	if( currentTop > headerHeight && !$('.box-header').hasClass('is-fixed')) $('.box-header').addClass('is-fixed');
 		    }
