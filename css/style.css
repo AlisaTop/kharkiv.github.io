@@ -232,8 +232,6 @@ h5 {
     font-weight: 700;
  }
 
-
-
 .box-primary-nav-trigger .box-menu-icon {
     display: inline-block;
     position: absolute;
@@ -438,7 +436,6 @@ b i:last-child {
     line-height: 1.7
 }
 
-
 /* mouse effect */
 
 .mouse {
@@ -512,7 +509,6 @@ b i:last-child {
         transform: translateY(20px);
     }
 }
-
 
 /* text rotate */
 
@@ -1100,7 +1096,7 @@ textarea:focus {
 }
 
 
-/* Responsive media
+/* Media
 ==================================================*/
 
 @media (max-width: 991px) {
